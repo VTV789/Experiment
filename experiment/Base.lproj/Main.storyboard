@@ -21,20 +21,29 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="177" y="285" width="46" height="30"/>
-                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="GkH-bb-3Ol" secondAttribute="centerY" id="DME-u3-x6a"/>
+                            <constraint firstAttribute="centerX" secondItem="GkH-bb-3Ol" secondAttribute="centerX" id="XQl-lI-dYb"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="GkH-bb-3Ol"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="DME-u3-x6a"/>
+                                <exclude reference="XQl-lI-dYb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="GkH-bb-3Ol"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="DME-u3-x6a"/>
+                                <include reference="XQl-lI-dYb"/>
                             </mask>
                         </variation>
                     </view>
