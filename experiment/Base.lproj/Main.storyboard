@@ -18,10 +18,11 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GkH-bb-3Ol">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Present">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="experiment" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6pk-Oq-12i"/>
                                     <action selector="experiment:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9oZ-0f-bcZ"/>
                                 </connections>
                             </button>
