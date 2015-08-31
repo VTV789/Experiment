@@ -23,7 +23,7 @@
                                 </state>
                                 <connections>
                                     <action selector="experiment" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6pk-Oq-12i"/>
-                                    <action selector="experiment:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9oZ-0f-bcZ"/>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="79Q-qe-dOW"/>
                                 </connections>
                             </button>
                         </subviews>

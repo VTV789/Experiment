@@ -12,18 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-   
-    
-    @IBAction func experiment(){
         
-        // Present the image picker
-        let controller = UIImagePickerController()
-        self.presentViewController(controller, animated: true, completion:nil)
     }
-
+    @IBAction func experiment() {
+        let nextController = UIImagePickerController()  //reference
+        self.presentViewController(nextController, animated: true,
+            completion:nil)
+    }
 
 }
-
