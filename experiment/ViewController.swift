@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         controller.message = "This is a test"
         
         self.presentViewController(controller, animated: true, completion: nil)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
 
 }
