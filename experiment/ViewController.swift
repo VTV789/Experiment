@@ -14,10 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    
     @IBAction func experiment() {
-        let nextController = UIImagePickerController()  //reference
-        self.presentViewController(nextController, animated: true,
-            completion:nil)
+        
+        let image = UIImage()
+        let controller = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        self.presentViewController(controller, animated: true, completion: nil)
     }
 
 }
